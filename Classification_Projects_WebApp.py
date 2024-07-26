@@ -12,105 +12,105 @@ import pandas as pd
 
 
 #loading the saved model of loan status prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
     encoder_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
     training_columns_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-5-Loan_Status_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_loan_status = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_loan_status = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_svc.json", 'r') as file:
+with open("Best Features/ML-Project-5-Loan_Status_Prediction_Best_Features/best_features_svc.json", 'r') as file:
     best_features_svc_loan_status = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_loan_status = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_svc_model.sav", 'rb') as f:
+with open("Models/ML-Project-5-Loan_Status_Prediction_Models/loan_status_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc_loan_status = pickle.load(f)
 
 
 #loading the saved model of wine quality prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-6-Wine_Quality_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-6-Wine_Quality_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_features_wine_quality = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-6-Wine_Quality_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-6-Wine_Quality_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scalers_wine_quality = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_wine_quality = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_wine_quality = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_knn.json", 'r') as file:
+with open("Best Features/ML-Project-6-Wine_Quality_Prediction_Best_Features/best_features_knn.json", 'r') as file:
     best_features_knn_wine_quality = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_wine_quality = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_wine_quality = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_knn_model.sav", 'rb') as f:
+with open("Models/ML-Project-6-Wine_Quality_Prediction_Models/wine_quality_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn_wine_quality = pickle.load(f)
 
 
 #loading the saved model of credit card fraud detection
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-10-Credit_Card_Fraud_Detection_Preprocessing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-10-Credit_Card_Fraud_Detection_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_features_credit_card_fraud = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-10-Credit_Card_Fraud_Detection_Preprocessing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-10-Credit_Card_Fraud_Detection_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scalers_credit_card_fraud = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_svc.json", 'r') as file:
+with open("Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_svc.json", 'r') as file:
     best_features_svc_credit_card_fraud = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_credit_card_fraud = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_rfc.json", 'r') as file:
+with open("Best Features/ML-Project-10-Credit_Card_Fraud_Detection_Best_Features/best_features_rfc.json", 'r') as file:
     best_features_rfc_credit_card_fraud = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_svc_model.sav", 'rb') as f:
+with open("Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc_credit_card_fraud = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_credit_card_fraud = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-10-Credit_Card_Fraud_Detection_Models/credit_card_fraud_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_credit_card_fraud = pickle.load(f)
 
 
 #loading the saved model of titanic survival prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/columns.pkl", 'rb') as f:
     all_columns_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/cat_columns.pkl", 'rb') as f:
     cat_columns_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/encoder.pkl", 'rb') as f:
     encoder_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/encoded_columns.pkl", 'rb') as f:
     encoded_columns_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/training_columns.pkl", 'rb') as f:
     training_columns_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-15-Titanic_Survival_Prediction_Preprocessing_Files/scaler.pkl", 'rb') as f:
     scaler_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_knn.json", 'r') as file:
+with open("Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_knn.json", 'r') as file:
     best_features_knn_titanic_survival = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
+with open("Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_xgb.json", 'r') as file:
     best_features_xgb_titanic_survival = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_lr.json", 'r') as file:
+with open("Best Features/ML-Project-15-Titanic_Survival_Prediction_Best_Features/best_features_lr.json", 'r') as file:
     best_features_lr_titanic_survival = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_knn_model.sav", 'rb') as f:
+with open("Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_knn_model.sav", 'rb') as f:
     loaded_model_knn_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_titanic_survival = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_lr_model.sav", 'rb') as f:
+with open("Models/ML-Project-15-Titanic_Survival_Prediction_Models/titanic_survival_trained_lr_model.sav", 'rb') as f:
     loaded_model_lr_titanic_survival = pickle.load(f)
 
 
 #loading the saved model of spam mail prediction
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Preprocessing File/ML-Project-17-Spam_Mail_Prediction_Preprocessing_Files/feature_extraction.pkl", 'rb') as f:
+with open("Preprocessing File/ML-Project-17-Spam_Mail_Prediction_Preprocessing_Files/feature_extraction.pkl", 'rb') as f:
     loaded_model_feature_extraction_spam_mail = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_svc_model.sav", 'rb') as f:
+with open("Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc_spam_mail = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_xgb_model.sav", 'rb') as f:
+with open("Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb_spam_mail = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-21-Classification Projects WebApp/Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_rfc_model.sav", 'rb') as f:
+with open("Models/ML-Project-17-Spam_Mail_Prediction_Models/spam_mail_prediction_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc_spam_mail = pickle.load(f)
 
 
