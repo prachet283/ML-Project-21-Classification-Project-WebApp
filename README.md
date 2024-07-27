@@ -101,29 +101,29 @@ Each classification project was developed through the following steps:
 The top 3 models for each classification project are as follows:
 
 ### Spam Mail Prediction
-- Logistic Regression: Simple and effective binary classification model.
 - Support Vector Classifier: Effective in high-dimensional spaces.
+- XGBoost: Boosting algorithm known for high performance.
 - Random Forest Classifier: Ensemble method that reduces overfitting.
 
 ### Titanic Survival Prediction
-- Logistic Regression: Interpretable and performs well with binary classification.
-- Random Forest Classifier: Robust and handles missing values well.
-- Gradient Boosting Classifier: Powerful boosting algorithm.
-
-### Wine Quality Prediction
-- Random Forest Classifier: Effective and reduces overfitting.
+- Logistic Regression: Interpretable and performs well with classification.
 - XGBoost: Boosting algorithm known for high performance.
 - K-Nearest Neighbour: Simple algorithm that works well with small datasets.
 
-### Loan Status Prediction
-- Logistic Regression: Highly interpretable and performs well with binary classification.
-- Random Forest Classifier: Robust and handles missing values well.
+### Wine Quality Prediction
+- Logistic Regression: Interpretable and performs well with classification.
+- XGBoost: Boosting algorithm known for high performance.
+- K-Nearest Neighbour: Simple algorithm that works well with small datasets.
+
+### Loan Status Prediction 
 - XGBoost: Excellent performance with complex datasets.
+- Random Forest Classifier: Robust and handles missing values well.
+- Logistic Regression: Highly interpretable and performs well with binary classification.
 
 ### Credit Card Fraud Detection
-- Logistic Regression: Effective binary classification model.
-- Random Forest Classifier: Ensemble method that reduces overfitting.
 - XGBoost: Powerful gradient boosting framework.
+- Random Forest Classifier: Ensemble method that reduces overfitting.
+- Support Vector Classifier: Effective in high-dimensional spaces.
 
 ## Model Evaluation
 
