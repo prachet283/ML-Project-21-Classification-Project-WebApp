@@ -128,9 +128,9 @@ The top 3 models for each classification project are as follows:
 ## Model Evaluation
 
 ### Spam Mail Prediction Model Accuracy
-- Logistic Regression: 97.68%
-- Support Vector Classifier: 98.12%
-- Random Forest Classifier: 97.35%
+- Support Vector Classifier: 98.21%
+- XGBoost: 98.21%
+- Random Forest Classifier: 96.59%
 
 ### Titanic Survival Prediction Model Accuracy 
 - Logistic Regression: 81.00%
