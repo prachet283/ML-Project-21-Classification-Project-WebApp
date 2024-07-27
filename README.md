@@ -132,10 +132,10 @@ The top 3 models for each classification project are as follows:
 - Support Vector Classifier: 98.12%
 - Random Forest Classifier: 97.35%
 
-### Titanic Survival Prediction Model Accuracy
-- Logistic Regression: 80.23%
-- Random Forest Classifier: 85.67%
-- Gradient Boosting Classifier: 82.45%
+### Titanic Survival Prediction Model Accuracy 
+- Logistic Regression: 81.00%
+- XGBoost: 79.33%
+- K-Nearest Neighbour: 78.21%
 
 ### Wine Quality Prediction Model Accuracy
 - Logistic Regression: 67.50%
