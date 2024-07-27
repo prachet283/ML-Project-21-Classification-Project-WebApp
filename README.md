@@ -147,10 +147,10 @@ The top 3 models for each classification project are as follows:
 - Random Forest Classifier: 98.83%
 - Logistic Regression: 95.55%
 
-### Credit Card Fraud Detection Model Accuracy
-- Logistic Regression: 94.76%
-- Random Forest Classifier: 96.32%
-- XGBoost: 97.45%
+### Credit Card Fraud Detection Model Accuracy 
+- XGBoost: 92.38%
+- Random Forest Classifier: 91.88%
+- Support Vector Classifier: 91.37%
 
 ## Conclusion
 
