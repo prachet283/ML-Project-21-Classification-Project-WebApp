@@ -138,9 +138,9 @@ The top 3 models for each classification project are as follows:
 - Gradient Boosting Classifier: 82.45%
 
 ### Wine Quality Prediction Model Accuracy
-- Random Forest Classifier: 86.54%
-- XGBoost: 88.23%
-- K-Nearest Neighbour: 85.76%
+- Logistic Regression: 67.50%
+- XGBoost: 66.25%
+- K-Nearest Neighbour: 58.44%
 
 ### Loan Status Prediction Model Accuracy 
 - XGBoost: 99.30%
