@@ -142,10 +142,10 @@ The top 3 models for each classification project are as follows:
 - XGBoost: 88.23%
 - K-Nearest Neighbour: 85.76%
 
-### Loan Status Prediction Model Accuracy
-- Logistic Regression: 78.68%
-- Random Forest Classifier: 80.54%
-- XGBoost: 83.12%
+### Loan Status Prediction Model Accuracy 
+- XGBoost: 99.30%
+- Random Forest Classifier: 98.83%
+- Logistic Regression: 95.55%
 
 ### Credit Card Fraud Detection Model Accuracy
 - Logistic Regression: 94.76%
