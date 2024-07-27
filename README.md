@@ -160,7 +160,7 @@ This ML Classification Projects WebApp provides an easy-to-use interface for pre
 
 The web app is hosted on Streamlit Cloud. You can access it using the following link:
 
-[ML Classification Projects WebApp](https://ml-classification-projects-webapp.streamlit.app/)
+[ML Classification Projects WebApp](https://ml-project-21-classification-project-webapp-hfcyjreiafqnkaqh3m.streamlit.app/)
 
 ## Contributing
 
